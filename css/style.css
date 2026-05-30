@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+body {
+  background-color: #000;
+}
+
+header {
+  background-color: #F7CD14;
+}
+
+.logo {
+  max-height: 10rem;
+}
+
+button {
+  background-color: #F7CD14;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+  font-family: "Fredoka", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 2rem;
+}
+button:active, button:focus {
+  outline: none;
+}
+button:hover {
+  background-color: #0D457D;
+  color: #fff;
+  transition-delay: 4ms;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 8px;
+  display: grid;
+  margin: 2rem;
+  padding: 2rem;
+  row-gap: 0.8rem;
+}/*# sourceMappingURL=style.css.map */

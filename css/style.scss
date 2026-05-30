@@ -1,0 +1,28 @@
+@use 'partial';
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+body{
+    background-color: partial.$bg-color;
+}
+
+header{
+    background-color: partial.$primary-color;
+}
+
+.logo{
+    max-height: 10rem;
+}
+
+button{
+    @include partial.btn;
+}
+
+.btn{
+    background-color: partial.$secondary-color;
+    border-radius: 8px;
+    display: grid;
+    margin: 2rem;
+    padding: 2rem;
+    row-gap: 0.8rem;
+}
