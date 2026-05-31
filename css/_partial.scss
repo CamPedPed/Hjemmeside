@@ -10,16 +10,21 @@ $header-font: "Fredoka", sans-serif;
 $p-font: "Imprima", sans-serif;
 
 
-@mixin btn($bg-color: $primary-color, $btn-padding: 8rem 8rem){
+@mixin a($bg-color: $primary-color, $a-padding: 8rem 8rem){
     background-color: #F7CD14;
     border-radius: 10px;
     border-style: none;
+    color: #000;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
     
     font-family: "Fredoka", sans-serif;
     font-size: 24px;
     font-weight: bold;
     padding: 2rem;
+    text-decoration: none;
 
     &:active,
     &:focus {
@@ -27,7 +32,7 @@ $p-font: "Imprima", sans-serif;
     }
 
     &:hover{
-        background-color: #0D457D;
+        background-color: #000;
         color: #fff;
         transition-delay: 4ms;
     }

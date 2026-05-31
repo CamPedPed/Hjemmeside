@@ -12,21 +12,29 @@ header {
   max-height: 10rem;
 }
 
-button {
+h1 {
+  color: #F7CD14;
+}
+
+a {
   background-color: #F7CD14;
   border-radius: 10px;
   border-style: none;
+  color: #000;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
   font-family: "Fredoka", sans-serif;
   font-size: 24px;
   font-weight: bold;
   padding: 2rem;
+  text-decoration: none;
 }
-button:active, button:focus {
+a:active, a:focus {
   outline: none;
 }
-button:hover {
-  background-color: #0D457D;
+a:hover {
+  background-color: #000;
   color: #fff;
   transition-delay: 4ms;
 }

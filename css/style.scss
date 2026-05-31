@@ -14,8 +14,12 @@ header{
     max-height: 10rem;
 }
 
-button{
-    @include partial.btn;
+h1{
+    color: partial.$primary-color;
+}
+
+a{
+    @include partial.a;
 }
 
 .btn{
