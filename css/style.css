@@ -5,11 +5,35 @@ body {
 }
 
 header {
-  background-color: #F7CD14;
+  background-color: #fff;
+  height: 5.2rem;
 }
 
 .logo {
+  border-color: #000;
+  border-style: solid;
+  border-width: 0.2rem;
   max-height: 10rem;
+  position: absolute;
+  top: 0;
+  margin-top: 0.4rem;
+  margin-left: 2rem;
+}
+
+.o_line, .g_line {
+  border-color: #000;
+  border-style: solid;
+  height: 1.8rem;
+}
+
+.o_line {
+  background-color: #F7CD14;
+  border-bottom-width: 0.4rem;
+}
+
+.g_line {
+  background-color: #C3BABF;
+  border-top-width: 0.4rem;
 }
 
 h1 {
@@ -34,7 +58,6 @@ a:active, a:focus {
   outline: none;
 }
 a:hover {
-  background-color: #000;
   color: #fff;
   transition-delay: 4ms;
 }

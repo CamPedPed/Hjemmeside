@@ -6,13 +6,42 @@ body{
     background-color: partial.$bg-color;
 }
 
+
+//Globals
 header{
-    background-color: partial.$primary-color;
+    background-color: partial.$secondary-color;
+    height: 5.2rem;
 }
 
 .logo{
+    border-color: partial.$bg-color;
+    border-style: solid;
+    border-width: 0.2rem;
     max-height: 10rem;
+    position: absolute;
+    top: 0;
+    margin-top: 0.4rem;
+    margin-left: 2rem;
 }
+
+.o_line, .g_line{
+    border-color: partial.$bg-color;
+    border-style: solid;
+    height: 1.8rem;
+}
+
+.o_line{
+    background-color: partial.$primary-color;
+    border-bottom-width: 0.4rem;
+}
+
+.g_line{
+    background-color: partial.$break-color;
+    border-top-width: 0.4rem;
+}
+
+//Globals stop
+
 
 h1{
     color: partial.$primary-color;
